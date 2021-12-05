@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,900;1,200;1,500;1,700&display=swap");
+
+:root {
+    --primary-color: #e00754;
+    --secondary-color: #3f3d56  ;
+    --off-white: #e5e5e5;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: medium;
+}
+
+hr {
+    margin: 1.5rem 0;
+}
+
+.span-primary-focus {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline-items {
+    display: inline;
+    padding: 0 0.3rem;
+}
+
+.list-non-numbered {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.navigation .nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.navigation .navigation-pills {
+    text-align: right;
+}
+
+.navigation .navigation-link {
+    color: white;
+}
+
+.navigation .navigation-link-active {
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero .hero-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.hero .hero-title .hero-title-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+    border-radius: 3rem 0 3rem 3rem;
+}
+
+.section .center {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    text-align: center;
+}
+
+.footer .footer-text {
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.footer ul {
+    padding-inline-start: 0
+}
